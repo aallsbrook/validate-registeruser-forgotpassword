@@ -1,0 +1,8 @@
+{
+    "config": {},
+    "description": "This portal is a simple way to test that user has been logged in and has the authenticated role",
+    "last_updated": "19 Mar 18 21:42 UTC",
+    "name": "Test User Login",
+    "system_key": "c696eda90bca8bb6bfe8a58ce745",
+    "type": "v2"
+}
