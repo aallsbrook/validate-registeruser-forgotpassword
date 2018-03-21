@@ -1,0 +1,28 @@
+{
+    "author": {
+        "email": "aallsbrook@clearblade.com"
+    },
+    "clouds": [
+        "mailgun"
+    ],
+    "description": "This package provides the ability to inject email verification for both the registration and forgot password lifecycle.  It includes services, Portal UI, and email integrations",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://i.imgur.com/rE8xUxa.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform",
+        "email",
+        "mailgun",
+        "password",
+        "register"
+    ],
+    "license": "MIT",
+    "name": "validate-registeruser-forgotpassword",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": ".2"
+}
