@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "http",
+    "description": "",
+    "name": "MailGun",
+    "version": 10,
+    "visibility": "system"
+}
