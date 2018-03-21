@@ -1,0 +1,10 @@
+{
+    "current_version": 14,
+    "dependencies": "developerAPILib,log",
+    "logging_enabled": "false",
+    "name": "test_DevAPI",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "test_DevAPI.js"
+}
