@@ -1,0 +1,90 @@
+{
+    "auth": true,
+    "deployments": [
+        {
+            "assets": [
+                {
+                    "asset_class": "devices",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "users",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "services",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "libraries",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "timers",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "triggers",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "portals",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "plugins",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "PendingUsers",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "___ALL_EDGES___",
+                    "sync": true
+                },
+                {
+                    "asset_class": "PendingPasswordReset",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "___ALL_EDGES___",
+                    "sync": true
+                }
+            ],
+            "description": "Deployment created by the database migration process. It reflects the old semantics for ClearBlade systems",
+            "edges": [
+                "___ALL_EDGES___"
+            ],
+            "name": "Default Deployment"
+        }
+    ],
+    "description": "",
+    "messaging_url": "messaging.clearblade.com:1883",
+    "name": "Sandbox Onboarding",
+    "platform_url": "https://platform.clearblade.com",
+    "system_key": "c696eda90bca8bb6bfe8a58ce745",
+    "system_secret": "C696EDA90B8C93C0969EBFAE80F101"
+}
