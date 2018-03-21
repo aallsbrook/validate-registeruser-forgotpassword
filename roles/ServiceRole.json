@@ -1,0 +1,102 @@
+{
+    "Description": "",
+    "ID": "d6eeffa90b9af3abd9fff6eec107",
+    "Name": "ServiceRole",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "getDeveloperRecord",
+                "SystemKey": "c696eda90bca8bb6bfe8a58ce745"
+            },
+            {
+                "Level": 1,
+                "Name": "getPendingRecord",
+                "SystemKey": "c696eda90bca8bb6bfe8a58ce745"
+            },
+            {
+                "Level": 1,
+                "Name": "getPendingResetRecord",
+                "SystemKey": "c696eda90bca8bb6bfe8a58ce745"
+            },
+            {
+                "Level": 1,
+                "Name": "registerDeveloper",
+                "SystemKey": "c696eda90bca8bb6bfe8a58ce745"
+            },
+            {
+                "Level": 1,
+                "Name": "registerUser",
+                "SystemKey": "c696eda90bca8bb6bfe8a58ce745"
+            },
+            {
+                "Level": 1,
+                "Name": "resetPassword",
+                "SystemKey": "c696eda90bca8bb6bfe8a58ce745"
+            },
+            {
+                "Level": 1,
+                "Name": "sendValidationEmail",
+                "SystemKey": "c696eda90bca8bb6bfe8a58ce745"
+            },
+            {
+                "Level": 1,
+                "Name": "submitForgotPassword",
+                "SystemKey": "c696eda90bca8bb6bfe8a58ce745"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "fecbf8aa0bee879ca2ceecd0c741",
+                "Items": [],
+                "Level": 15,
+                "Name": "PendingPasswordReset"
+            },
+            {
+                "Columns": [],
+                "ID": "96f2ffa90bb29fffbfd885d3b1e401",
+                "Items": [],
+                "Level": 15,
+                "Name": "PendingUsers"
+            },
+            {
+                "Columns": [],
+                "ID": "e8c5eda90bb0e0dbd6e6809592c701",
+                "Items": [],
+                "Level": 0,
+                "Name": "e8c5eda90bb0e0dbd6e6809592c701"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [],
+        "Push": {
+            "Level": 0
+        },
+        "SystemServices": null,
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 3
+        }
+    }
+}
