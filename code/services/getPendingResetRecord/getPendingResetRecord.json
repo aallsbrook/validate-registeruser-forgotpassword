@@ -1,0 +1,14 @@
+{
+    "current_version": 25,
+    "dependencies": "clearblade",
+    "logging_enabled": "false",
+    "name": "getPendingResetRecord",
+    "params": [],
+    "permissions": {
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "ServiceRole": 1
+    },
+    "run_user": "c8f0ffa90bbcc4e89f9ffcf1dd6b",
+    "source": "getPendingResetRecord.js"
+}
