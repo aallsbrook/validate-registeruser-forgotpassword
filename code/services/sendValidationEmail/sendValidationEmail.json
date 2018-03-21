@@ -1,0 +1,14 @@
+{
+    "current_version": 62,
+    "dependencies": "clearblade,MailGun,log,emailHTMLLib,CONSTANTS",
+    "logging_enabled": "false",
+    "name": "sendValidationEmail",
+    "params": [],
+    "permissions": {
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "ServiceRole": 1
+    },
+    "run_user": "c8f0ffa90bbcc4e89f9ffcf1dd6b",
+    "source": "sendValidationEmail.js"
+}
