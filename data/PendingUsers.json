@@ -1,0 +1,51 @@
+{
+    "app_id": "c696eda90bca8bb6bfe8a58ce745",
+    "collection_id": "96f2ffa90bb29fffbfd885d3b1e401",
+    "items": [],
+    "name": "PendingUsers",
+    "permissions": {
+        "ServiceRole": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "email",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "first_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "last_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "organization",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "created_date",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "validated_date",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "is_validated",
+            "ColumnType": "bool",
+            "PK": false
+        }
+    ]
+}
