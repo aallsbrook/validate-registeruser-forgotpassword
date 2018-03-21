@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "CONSTANTS,http",
+    "description": "",
+    "name": "developerAPILib",
+    "version": 14,
+    "visibility": "system"
+}
