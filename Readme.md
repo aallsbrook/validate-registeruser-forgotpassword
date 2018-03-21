@@ -31,6 +31,8 @@ var _application = { name:"" }
 var _developerEmail = "";
 var _developerPassword = "";
 
+Additionally you will also need to create a service account user with the role of ServiceRole.  All of the services should be set with the runas with this new user.
+
 ## Usage
 
 This package provides two capabilties
