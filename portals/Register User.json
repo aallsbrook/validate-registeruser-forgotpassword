@@ -1,0 +1,978 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "04e02073-3f56-42af-a2c1-c161b418d2a3": "lg",
+            "150a7f63-7038-4964-b2bc-60ee372097e5": "xs",
+            "c26fcd65-0ff7-4feb-ba0e-9e0b5fcca40b": "lg",
+            "c2a2d527-b6f4-4d3e-bbf4-4895c5117b87": "lg",
+            "c51eef06-b97d-4384-b5e4-9564d5e364ea": "lg"
+        },
+        "datasources": {
+            "051178c6-3703-4c27-9ab9-bb84df655c54": {
+                "id": "051178c6-3703-4c27-9ab9-bb84df655c54",
+                "name": "userInfo",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "251589e5-e38b-4580-966b-56eeb2e3ef28": {
+                "id": "251589e5-e38b-4580-966b-56eeb2e3ef28",
+                "name": "submitForgotPassword",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "submitForgotPassword",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "39b2ed6b-9935-4208-a42c-fd8d541fa0d3": {
+                "id": "39b2ed6b-9935-4208-a42c-fd8d541fa0d3",
+                "name": "sendValidationEmail",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "sendValidationEmail",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "4431a1c1-224e-43ec-9405-1c121e26d378": {
+                "id": "4431a1c1-224e-43ec-9405-1c121e26d378",
+                "name": "getPendingResetRecord",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getPendingResetRecord",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "604da856-d9b1-4280-95c9-bf85618bebdf": {
+                "id": "604da856-d9b1-4280-95c9-bf85618bebdf",
+                "name": "resetPassword",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "resetPassword",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "a3433b50-295e-43f4-8205-9943a0662ed3": {
+                "id": "a3433b50-295e-43f4-8205-9943a0662ed3",
+                "name": "registerUser",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "registerUser",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "c3b6cdd9-0db4-4da3-b930-c6cccb8cd7f2": {
+                "id": "c3b6cdd9-0db4-4da3-b930-c6cccb8cd7f2",
+                "name": "getPendingRecord",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getPendingRecord",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            }
+        },
+        "externalScripts": [],
+        "flyoutWidgetLayout": {
+            "lg": [],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": []
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 42,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 46,
+                    "x": 185,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "2b1e2e88-5440-4298-81ee-e8a3d08b0bd6": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "2b1e2e88-5440-4298-81ee-e8a3d08b0bd6",
+                "isChild": false,
+                "isParam": false,
+                "name": "Forgot",
+                "path": ""
+            },
+            "4699dd29-bdb5-41ce-9477-cd7b93d152ee": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "4699dd29-bdb5-41ce-9477-cd7b93d152ee",
+                "isChild": false,
+                "isParam": false,
+                "name": "Reset",
+                "path": ""
+            },
+            "5047b164-5135-45af-befa-4d142d4d0479": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "5047b164-5135-45af-befa-4d142d4d0479",
+                "isChild": false,
+                "isParam": false,
+                "name": "emaildrafts",
+                "path": ""
+            },
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            },
+            "fafcbac4-115f-46d8-a6b3-1e45c5864860": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "fafcbac4-115f-46d8-a6b3-1e45c5864860",
+                "isChild": false,
+                "isParam": false,
+                "name": "Register",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "04e02073-3f56-42af-a2c1-c161b418d2a3": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "175558c7-fd2f-47ef-9caf-54948d1e8aa3",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "150a7f63-7038-4964-b2bc-60ee372097e5": {
+                "lg": [
+                    {
+                        "h": 20,
+                        "i": "7b471975-e824-43b5-86ea-28d377893ae3",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 5,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [
+                    {
+                        "h": 20,
+                        "i": "7b471975-e824-43b5-86ea-28d377893ae3",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 4
+                    }
+                ],
+                "xxs": []
+            },
+            "c26fcd65-0ff7-4feb-ba0e-9e0b5fcca40b": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "512cc451-b47d-4f35-bbf1-6cdc47fa1473",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "c2a2d527-b6f4-4d3e-bbf4-4895c5117b87": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "4a517f44-6363-42b3-bfe5-ad927d2344df",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "c51eef06-b97d-4384-b5e4-9564d5e364ea": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "3eca5588-a491-4dd8-9d93-7c2860934443",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "paneLayouts": {
+            "2b1e2e88-5440-4298-81ee-e8a3d08b0bd6": {
+                "lg": [
+                    {
+                        "h": 2,
+                        "i": "031df858-ee7c-4075-b6eb-089e3072c3cf",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 4,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "4699dd29-bdb5-41ce-9477-cd7b93d152ee": {
+                "lg": [
+                    {
+                        "h": 3,
+                        "i": "acba63f0-4b3f-4836-ba27-cc8f60a6bf49",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 4,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "5047b164-5135-45af-befa-4d142d4d0479": {
+                "lg": [
+                    {
+                        "h": 2,
+                        "i": "c822cb9f-451d-4727-9e76-7bd3a87dc108",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "Home": {
+                "lg": [
+                    {
+                        "h": 3,
+                        "i": "289c2537-f392-476d-88f2-f4450666ae2b",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 4,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 3,
+                        "i": "289c2537-f392-476d-88f2-f4450666ae2b",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 3,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 3,
+                        "i": "289c2537-f392-476d-88f2-f4450666ae2b",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 2,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 3,
+                        "i": "289c2537-f392-476d-88f2-f4450666ae2b",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 1,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 3,
+                        "i": "289c2537-f392-476d-88f2-f4450666ae2b",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            "fafcbac4-115f-46d8-a6b3-1e45c5864860": {
+                "lg": [
+                    {
+                        "h": 3,
+                        "i": "3127e1c5-c552-40e7-91e4-77ae3ec58576",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 4,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "panes": {
+            "031df858-ee7c-4075-b6eb-089e3072c3cf": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Forgot Your Password?"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "031df858-ee7c-4075-b6eb-089e3072c3cf",
+                "pageId": "2b1e2e88-5440-4298-81ee-e8a3d08b0bd6",
+                "tabInfo": {
+                    "activeTab": "c26fcd65-0ff7-4feb-ba0e-9e0b5fcca40b",
+                    "tabIds": [
+                        "c26fcd65-0ff7-4feb-ba0e-9e0b5fcca40b"
+                    ],
+                    "tabTitles": {
+                        "c26fcd65-0ff7-4feb-ba0e-9e0b5fcca40b": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "289c2537-f392-476d-88f2-f4450666ae2b": {
+                "customPaneId": "",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": true,
+                "id": "289c2537-f392-476d-88f2-f4450666ae2b",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "150a7f63-7038-4964-b2bc-60ee372097e5",
+                    "tabIds": [
+                        "150a7f63-7038-4964-b2bc-60ee372097e5"
+                    ],
+                    "tabTitles": {
+                        "150a7f63-7038-4964-b2bc-60ee372097e5": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "secondary"
+            },
+            "3127e1c5-c552-40e7-91e4-77ae3ec58576": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "3127e1c5-c552-40e7-91e4-77ae3ec58576",
+                "pageId": "fafcbac4-115f-46d8-a6b3-1e45c5864860",
+                "tabInfo": {
+                    "activeTab": "c51eef06-b97d-4384-b5e4-9564d5e364ea",
+                    "tabIds": [
+                        "c51eef06-b97d-4384-b5e4-9564d5e364ea"
+                    ],
+                    "tabTitles": {
+                        "c51eef06-b97d-4384-b5e4-9564d5e364ea": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "acba63f0-4b3f-4836-ba27-cc8f60a6bf49": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "acba63f0-4b3f-4836-ba27-cc8f60a6bf49",
+                "pageId": "4699dd29-bdb5-41ce-9477-cd7b93d152ee",
+                "tabInfo": {
+                    "activeTab": "c2a2d527-b6f4-4d3e-bbf4-4895c5117b87",
+                    "tabIds": [
+                        "c2a2d527-b6f4-4d3e-bbf4-4895c5117b87"
+                    ],
+                    "tabTitles": {
+                        "c2a2d527-b6f4-4d3e-bbf4-4895c5117b87": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "c822cb9f-451d-4727-9e76-7bd3a87dc108": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "c822cb9f-451d-4727-9e76-7bd3a87dc108",
+                "pageId": "5047b164-5135-45af-befa-4d142d4d0479",
+                "tabInfo": {
+                    "activeTab": "04e02073-3f56-42af-a2c1-c161b418d2a3",
+                    "tabIds": [
+                        "04e02073-3f56-42af-a2c1-c161b418d2a3"
+                    ],
+                    "tabTitles": {
+                        "04e02073-3f56-42af-a2c1-c161b418d2a3": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#ffffff"
+                        },
+                        "dropdown": {
+                            "fontColor": "#ffffff",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#6e8592"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#ffffff"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#ffffff"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#ffffff"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#ffffff",
+                            "backgroundHoverColor": "#cccccc",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#cccccc",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#cccccc",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#cccccc",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#ffffff",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "175558c7-fd2f-47ef-9caf-54948d1e8aa3": {
+                "externalScripts": [],
+                "id": "175558c7-fd2f-47ef-9caf-54948d1e8aa3",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": "",
+                            "HTML": "\u003cstyle\u003e\n    .header_bar {\n  width:100%;\n  height:20px;\n  background-color:#6E8592;\n  border-color:black;\n  border-bottom-width:4px;\n  border-bottom-style:solid;\n}\n\n.footer_bar {\n    width:100%;\n  height:20px;\n  background-color:#6E8592;\n  border-color:black;\n  border-top-width:4px;\n  border-top-style:solid;\n}\n\n.email_button {\n    color: #fff;\n    background-color: #6E8592;\n    border-color: #007bff;\n    display: inline-block;\n    font-weight: 400;\n    text-align: center;\n    white-space: nowrap;\n    vertical-align: middle;\n    user-select: none;\n    border: 1px solid transparent;\n    padding: .375rem .75rem;\n    font-size: 1rem;\n    line-height: 1.5;\n    border-radius: .25rem;\n}\n\n.more_text{\n    font-size:12px;\n\n}\n\u003c/style\u003e\n\n\u003cdiv class=\"text-center\"\u003e\n  \u003cdiv class=\"header_bar\"\u003e\u003c/div\u003e\n  \u003ch2\u003eGood Work!\u003c/h2\u003e\n  \u003cdiv\u003eThanks for creating a new account. Click below to set your password and get started.\u003c/div\u003e\n  \u003cbr\u003e\n  \u003ca href=\"portalURL+\u0026user_id=+user_id+\" class=\"email_button\" id=\"submit_input\"\u003eConfirm Account\u003c/a\u003e\n  \u003cbr\u003e\u003cbr\u003e\n  \u003cdiv class=\"more_text\"\u003eClick here to learn more or contact us at info@clearblade.com\u003c/div\u003e\n  \u003cdiv class=\"footer_bar\"\u003e\u003c/div\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n"
+                        }
+                    }
+                },
+                "tab": "04e02073-3f56-42af-a2c1-c161b418d2a3",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "3eca5588-a491-4dd8-9d93-7c2860934443": {
+                "externalScripts": [],
+                "id": "3eca5588-a491-4dd8-9d93-7c2860934443",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                            "HTML": "\u003cdiv class=\"text-center \"\u003e\n    \u003cdiv id=\"register_input_div\"\u003e\n        \u003cdiv id=\"register_welcome_div\"\u003e\u003c/div\u003e\n        \u003cbr\u003e\n        \u003cbr\u003e\n        \u003cinput id=\"register_password_input\" class=\"form-control\" type=\"password\" placeholder=\"password\"\u003e\n        \u003cbr\u003e\n        \u003cinput id=\"register_confirm_input\" class=\"form-control\" type=\"password\" placeholder=\"confirm\"\u003e\n        \u003cbr\u003e\n        \u003cbutton class=\"btn btn-primary\" id=\"register_submit_input\"\u003eSubmit\u003c/button\u003e\n    \u003c/div\u003e    \n    \u003cdiv id=\"register_message_div\"\u003e\n    \u003c/div\u003e\n    \u003cspan\u003eAlready have an account?  \u003cspan class=\"underline\" id=\"register_login_span\"\u003e Login\u003c/span\u003e or \u003cspan id=\"register_forgot_span\" class=\"underline\"\u003eForgot\u003c/span\u003e\u003c/span\u003e\n\u003c/div\u003e",
+                            "JavaScript": "//JavaScript\nfunction getUrlVars() {\n    var vars = [], hash;\n    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1, window.location.href.indexOf('#')).split('\u0026');\n    for(var i = 0; i \u003c hashes.length; i++)\n    {\n        hash = hashes[i].split('=');\n        vars.push(hash[0]);\n        vars[hash[0]] = hash[1];\n    }\n    return vars;\n}\nvar user_id = getUrlVars()[\"user_id\"];\nsetTimeout( function(){\n    datasources[\"getPendingRecord\"].sendData({\"user_id\":user_id}).then ( function(){\n        //setTimeout(new function(){\n            console.log(\"here3\") \n            var user  =datasources[\"getPendingRecord\"].latestData().results; \n            console.log( JSON.stringify(user));\n            var welcome = \"\u003ch2\u003eHi \"+user.first_name+ \" \"+user.last_name+\"!\u003c/h2\u003e \u003cbr\u003e  Thanks for confirming your email.  Please set your account password below \"\n            $(\"#register_welcome_div\").html(welcome);\n        //},1000);\n    });\n}, 1000);\n\n$( \"#register_submit_input\" ).click(function() {\n    var pwd = $( \"#register_password_input\" ).val();\n    var confirm = $( \"#register_confirm_input\" ).val();  \n    if (pwd == confirm) {\n        var payload={\n            password:pwd,\n            user_id:user_id\n        }\n        datasources.registerUser.sendData(payload).then( function(){\n            var result = datasources.registerUser.latestData();\n            if (!result.results.err){\n                $(\"#register_message_div\").html(\"Congratulations!  Your account has been created\");\n                $(\"#register_input_div\").hide();\n            }else{\n               $(\"#register_message_div\").html(result.results.message);  \n            }\n        });\n    }else {\n        //alert of password mismatch\n        $(\"#register_message_div\").html(\"Passwords do not match\");\n    }\n});\n\n$( \"#register_forgot_span\" ).click(function() {\n    CB_PORTAL.selectPage(\"/forgot\")\n});\n\n$( \"#register_login_span\" ).click(function() {\n    var loginTest = \"https://platform.clearblade.com/portal/?systemKey=AAAAAAAAAAAAAAAAAAAAAJ4uGPt4221J4tBYDtdx_F9kxyqYu1KK_jonCSI=\u0026systemSecret=AAAAAAAAAAAAAAAAAAAAAF43zLvJIf5gafCR9y2o9PTdO90yuJ-syWA-aZcd9g==\u0026name=Test%20User%20Login\";\n    window.open(loginTest);\n});\n\n"
+                        }
+                    }
+                },
+                "tab": "c51eef06-b97d-4384-b5e4-9564d5e364ea",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "4a517f44-6363-42b3-bfe5-ad927d2344df": {
+                "externalScripts": [],
+                "id": "4a517f44-6363-42b3-bfe5-ad927d2344df",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": "",
+                            "HTML": "\u003cdiv class=\"text-center \"\u003e\n    \u003cdiv id=\"reset_input_div\"\u003e\n        \u003cdiv id=\"reset_welcome_div\"\u003e\u003c/div\u003e\n        \u003cbr\u003e\n        \u003cbr\u003e\n        \u003cinput id=\"reset_password_input\" class=\"form-control\" type=\"password\" placeholder=\"password\"\u003e\n        \u003cbr\u003e\n        \u003cinput id=\"reset_confirm_input\" class=\"form-control\" type=\"password\" placeholder=\"confirm\"\u003e\n        \u003cbr\u003e\n        \u003cbutton class=\"btn btn-primary\" id=\"reset_submit_input\"\u003eSubmit\u003c/button\u003e\n    \u003c/div\u003e    \n    \u003cdiv id=\"reset_message_div\"\u003e\n    \u003c/div\u003e\n    \n    \u003cspan\u003eAlready have an account?  \u003cspan class=\"underline\" id=\"reset_login_span\"\u003e Login\u003c/span\u003e or \u003cspan id=\"reset_forgot_span\" class=\"underline\"\u003eForgot\u003c/span\u003e\u003c/span\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\nfunction getUrlVars() {\n    var vars = [], hash;\n    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1, window.location.href.indexOf('#')).split('\u0026');\n    for(var i = 0; i \u003c hashes.length; i++)\n    {\n        hash = hashes[i].split('=');\n        vars.push(hash[0]);\n        vars[hash[0]] = hash[1];\n    }\n    return vars;\n}\nvar user_id = getUrlVars()[\"user_id\"];\nsetTimeout( function(){\n    datasources[\"getPendingResetRecord\"].sendData({\"pending_reset_id\":user_id}).then ( function(){\n        //setTimeout(new function(){\n            console.log(\"here3\") \n            var user  =datasources[\"getPendingResetRecord\"].latestData().results; \n            console.log( JSON.stringify(user));\n            var welcome = \"Please reset your password for \"+user.email\n            $(\"#reset_welcome_div\").html(welcome);\n        //},1000);\n    });\n}, 1000);\n\n$( \"#reset_submit_input\" ).click(function() {\n    var pwd = $( \"#reset_password_input\" ).val();\n    var confirm = $( \"#reset_confirm_input\" ).val();  \n    if (pwd == confirm) {\n        var payload={\n            password:pwd,\n            pending_reset_id:user_id\n        }\n        datasources.resetPassword.sendData(payload).then( function(){\n            var result = datasources.resetPassword.latestData();\n            if (!result.results.err){\n                $(\"#reset_message_div\").html(\"Your account password has been reset\");\n                $(\"#reset_input_div\").hide();\n            }else{\n               $(\"#reset_message_div\").html(result.results.message);  \n            }\n        });\n    }else {\n        //alert of password mismatch\n        $(\"#register_message_div\").html(\"Passwords do not match\");\n    }\n});\n\n$( \"#reset_forgot_span\" ).click(function() {\n    CB_PORTAL.selectPage(\"/forgot\")\n});\n\n$( \"#reset_login_span\" ).click(function() {\n    var loginTest = \"https://platform.clearblade.com/portal/?systemKey=AAAAAAAAAAAAAAAAAAAAAJ4uGPt4221J4tBYDtdx_F9kxyqYu1KK_jonCSI=\u0026systemSecret=AAAAAAAAAAAAAAAAAAAAAF43zLvJIf5gafCR9y2o9PTdO90yuJ-syWA-aZcd9g==\u0026name=Test%20User%20Login\";\n    window.open(loginTest);\n});"
+                        }
+                    }
+                },
+                "tab": "c2a2d527-b6f4-4d3e-bbf4-4895c5117b87",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "512cc451-b47d-4f35-bbf1-6cdc47fa1473": {
+                "externalScripts": [],
+                "id": "512cc451-b47d-4f35-bbf1-6cdc47fa1473",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                            "HTML": "\u003cdiv style=\"text-align:center\"\u003e\n    \u003cdiv id=\"forgot_input_div\"\u003e\n        Enter your email to retreive your password\n        \u003cbr\u003e\n        \u003cbr\u003e\n        \u003cinput id=\"forgot_email_input\" class=\"form-control\" type=\"text\" placeholder=\"email\"\u003e\n        \u003cbr\u003e\n        \u003cbutton class=\"btn btn-primary\" id=\"forgot_submit_input\"\u003eSubmit\u003c/button\u003e\n        \u003cbr\u003e\n        \u003cspan\u003eDon't have an account?  \u003cspan class=\"underline\" id=\"forgot_login_span\"\u003e Login\u003c/span\u003e or \u003cspan id=\"forgot_register_span\" class=\"underline\"\u003eRegister\u003c/span\u003e\u003c/span\u003e\n    \u003c/div\u003e    \n    \u003cdiv id=\"forgot_message_div\"\u003e\u003c/div\u003e\n    \n\u003c/div\u003e",
+                            "JavaScript": "//JavaScript\n$( \"#forgot_submit_input\" ).click(function() {\n    var email = $( \"#forgot_email_input\" ).val();\n    var payload={\n        email:email\n    }\n    datasources.submitForgotPassword.sendData(payload).then( function(){\n        var result = datasources.submitForgotPassword.latestData();\n        if (!result.results.err){\n            $(\"#forgot_message_div\").html(result.results.message);\n            $(\"#forgot_input_div\").hide();\n        }else{\n           $(\"#forgot_message_div\").html(result.results.message);  \n        }\n    });\n\n});\n\n$( \"#forgot_register_span\" ).click(function() {\n    CB_PORTAL.selectPage(\"/Home\")\n});\n\n$( \"#forgot_login_span\" ).click(function() {\n    var loginTest = \"https://platform.clearblade.com/portal/?systemKey=AAAAAAAAAAAAAAAAAAAAAJ4uGPt4221J4tBYDtdx_F9kxyqYu1KK_jonCSI=\u0026systemSecret=AAAAAAAAAAAAAAAAAAAAAF43zLvJIf5gafCR9y2o9PTdO90yuJ-syWA-aZcd9g==\u0026name=Test%20User%20Login\";\n    window.open(loginTest);\n});"
+                        }
+                    }
+                },
+                "tab": "c26fcd65-0ff7-4feb-ba0e-9e0b5fcca40b",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "7b471975-e824-43b5-86ea-28d377893ae3": {
+                "externalScripts": [],
+                "id": "7b471975-e824-43b5-86ea-28d377893ae3",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n    text-decoration:underline;\n}\n",
+                            "HTML": "\u003cdiv class=\"text-center \"\u003e\n    \u003cdiv id=\"input_div\"\u003e\n        Register for a new account\n        \u003cbr\u003e\n        \u003cbr\u003e\n        \u003cinput id=\"email_input\" class=\"form-control\" type=\"text\" placeholder=\"email\"\u003e\n        \u003cbr\u003e\n        \u003cinput id=\"firstname_input\" class=\"form-control\" type=\"text\" placeholder=\"first name\"\u003e\n        \u003cbr\u003e\n        \u003cinput id=\"lastname_input\" class=\"form-control\" type=\"text\" placeholder=\"last name\"\u003e\n        \u003cbr\u003e\n        \u003cinput id=\"organization_input\" class=\"form-control\" type=\"text\" placeholder=\"organization\"\u003e\n        \u003cbr\u003e\n        \u003cbutton class=\"btn btn-primary\" id=\"submit_input\"\u003eSubmit\u003c/button\u003e\n        \u003cbr\u003e\n        \u003cspan\u003eAlready have an account?  \u003cspan class=\"underline\" id=\"login_span\"\u003e Login\u003c/span\u003e or \u003cspan id=\"forgot_span\" class=\"underline\"\u003eForgot\u003c/span\u003e\u003c/span\u003e\n    \u003c/div\u003e    \n    \u003cdiv id=\"message_div\" style=\"display:none\"\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "$( \"#submit_input\" ).click(function() {\n    $(\"#input_div\").attr('disabled','disabled');\n    var userInfo={};\n    userInfo.email = $( \"#email_input\" ).val();\n    userInfo.firstname_input = $( \"#firstname_input\" ).val();\n    userInfo.lastname_input = $( \"#lastname_input\" ).val();\n    userInfo.organization_input = $( \"#organization_input\" ).val();\n    datasources.userInfo.sendData(userInfo);\n    datasources.sendValidationEmail.sendData(userInfo).then(function(){\n        var message =datasources.sendValidationEmail.latestData().results.message\n        $(\"#input_div\").hide();\n        $(\"#message_div\").show();\n        $(\"#message_div\").html(message);\n    });\n});\n\n$( \"#forgot_span\" ).click(function() {\n    CB_PORTAL.selectPage(\"/forgot\")\n});\n\n$( \"#login_span\" ).click(function() {\n    var loginTest = \"https://platform.clearblade.com/portal/?systemKey=AAAAAAAAAAAAAAAAAAAAAJ4uGPt4221J4tBYDtdx_F9kxyqYu1KK_jonCSI=\u0026systemSecret=AAAAAAAAAAAAAAAAAAAAAF43zLvJIf5gafCR9y2o9PTdO90yuJ-syWA-aZcd9g==\u0026name=Test%20User%20Login\";\n    window.open(loginTest);\n});\n"
+                        }
+                    }
+                },
+                "tab": "150a7f63-7038-4964-b2bc-60ee372097e5",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "brand": {
+                "externalScripts": [],
+                "id": "brand",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": "ClearBlade v.2"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return \"\""
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": "Register new user or Forgot Password",
+    "last_updated": "21 Mar 18 14:48 UTC",
+    "name": "Register User",
+    "system_key": "c696eda90bca8bb6bfe8a58ce745",
+    "type": "v2"
+}
